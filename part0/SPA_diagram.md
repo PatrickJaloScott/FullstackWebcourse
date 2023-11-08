@@ -23,7 +23,7 @@ sequenceDiagram
     browser ->> server: GET data.json
     activate server
     note left of server: return the json file with the data
-    server -->> browser: [{ "content": "asd", date: "2023-11-08T14:32:29.103Z" }, ...]
+    server -->> browser: [{ "content": "asd", "date": "2023-11-08T14:32:29.103Z" }, ...]
     deactivate server
 ```
 
