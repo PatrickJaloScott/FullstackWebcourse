@@ -31,7 +31,7 @@ sequenceDiagram
     browser ->> server: POST Form Data (note: "something")
     browser ->> server: GET site
     activate server
-    server ->> browser: return document
+    server ->> browser: return document of reloaded site
     Note left of server: return site with new note
     deactivate server
 ```
