@@ -1,4 +1,4 @@
-# Single Page App
+# Single Page Example
 ```mermaid
 sequenceDiagram
     participant browser
@@ -6,7 +6,7 @@ sequenceDiagram
     
     browser ->> server: GET site
     activate server
-    server ->> browser: return Single Page App document
+    server ->> browser: return Single Page Example document
     deactivate server
     
     browser ->> server: GET main.css
